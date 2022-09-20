@@ -54,7 +54,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: busybox:latest
+        image: gcr.io/google-samples/microservices-demo/busybox:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -67,7 +67,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: loadgenerator
+        image: gcr.io/google-samples/microservices-demo/loadgenerator
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"

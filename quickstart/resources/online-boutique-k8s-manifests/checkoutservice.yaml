@@ -40,7 +40,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: checkoutservice
+          image: gcr.io/google-samples/microservices-demo/checkoutservice
           ports:
           - containerPort: 5050
           readinessProbe:

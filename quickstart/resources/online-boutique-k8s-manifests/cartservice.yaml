@@ -41,7 +41,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: cartservice
+        image: gcr.io/google-samples/microservices-demo/cartservice
         ports:
         - containerPort: 7070
         env:
